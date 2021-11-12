@@ -1,0 +1,48 @@
+.cuerpo-buscador {
+  height: auto;
+  background-color: #d6d6d6;
+}
+
+.contenido-buscador {
+  padding-right: 0;
+}
+
+.boton-buscador {
+  width: 100%;
+}
+
+.columna-input {
+  width: 65%;
+}
+
+.columna-boton {
+  width: 35%;
+}
+
+.control-buscador {
+  height: 3em;
+}
+
+.columna-buscador {
+  padding: 0;
+}
+
+/* .input-buscador {
+  display: inline;
+  width: 70%;
+} */
+
+.buscador {
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .cuerpo-buscador .card-body {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .columna-lateral-buscador {
+    display: none;
+  }
+}

@@ -1,0 +1,30 @@
+@media only screen and (min-width: 768px) {
+  .columna-central {
+    width: 18em;
+  }
+}
+
+
+.modal-fuera-de-sesion {
+  display: grid;
+  position: absolute;
+  top: 15%;
+  left: 15%; 
+}
+
+.modal-fuera-de-sesion .modal-dialog {
+  margin: unset;
+  max-width: unset;
+  display: flex;
+  width: 70%;
+  height: 70%;
+} 
+
+.modal-fuera-de-sesion .modal-body {
+  display: grid;
+  align-content: center;
+}
+
+.modal-fuera-de-sesion .modal-content {
+  min-height: 260px;
+}

@@ -1,0 +1,66 @@
+/* .cuerpo-tweet {
+  height: auto;
+} */
+
+.columna-usuario-link {
+  width: auto;
+}
+
+.usuario-link {
+  align-items: center;
+}
+
+.nombre-usuario-link-grande {
+  font-size: 1.35em;
+}
+
+.nombre-usuario-link-mediano {
+  font-size: 1.2em;
+}
+
+.nombre-usuario-link-chico {
+  font-size: 1em;
+}
+
+.imagen-usuario-usuario-link {
+  border-radius: 50%;
+}
+
+.imagen-usuario-usuario-link-grande {
+  padding: 0;
+  width: 5em;
+  height: 5em;
+}
+
+.imagen-usuario-usuario-link-mediano {
+  padding: 0;
+  width: 3em;
+  height: 3em;
+}
+
+.imagen-usuario-usuario-link-chico {
+  padding: 0;
+  width: 2em;
+  height: 2em;
+}
+
+.imagen-usuario-usuario-link:hover {
+  filter: brightness(120%);
+  border-color: #b2b4b8;
+}
+
+.link-perfil:hover {
+  text-decoration: underline;
+}
+
+.contenido-usuario-link {
+  padding-right: 0;
+}
+
+/* 
+@media only screen and (max-width: 768px) {
+  .cuerpo-tweet .card-body {
+    padding-right: 0;
+    padding-left: 0;
+  }
+} */

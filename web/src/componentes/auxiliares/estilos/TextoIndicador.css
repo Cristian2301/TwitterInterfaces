@@ -1,0 +1,15 @@
+.texto-indicador {
+  text-align: center;
+  font-size: 1em;
+  margin-left: 0.4em;
+}
+
+@media only screen and (min-width: 768px) {
+  .texto-indicador {
+    font-size: 0.7em;
+  }
+}
+
+.area-pulsador-texto-indicador {
+  width: 2em;
+}

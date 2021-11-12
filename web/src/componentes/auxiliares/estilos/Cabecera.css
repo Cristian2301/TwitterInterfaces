@@ -1,0 +1,21 @@
+.columna-boton-deslogueo-celular {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .columna-lateral-cabecera {
+    flex: unset;
+  }
+
+  .fila-cabecera * {
+    width: auto;
+  }
+
+  .columna-boton-deslogueo {
+    display: none;
+  }
+
+  .columna-boton-deslogueo-celular {
+    display: block;
+  }
+}
